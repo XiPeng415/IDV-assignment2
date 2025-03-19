@@ -61,9 +61,16 @@
             width: 750px;
             text-align: justify;
             text-align-last: left;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 15px;
         }
+
+        .source-section p {
+            display: flex;
+            justify-content: flex-end; /* Pushes it to the right */
+            width: 65%;
+            margin-top: 5px;
+        }
+
 
         li {
             margin: auto;
@@ -101,11 +108,17 @@
     <!-------------------------------------------------------------->
     <h3>Example 1</h3>
     <p>
-        The chart represents the log of letters received by Lulu, including the number of letters received over time, the median age of the letters, the distribution of sending countries, and a table summarizing the letter counts by country.
-    </p><br>
-    <p><a href="https://www.reddit.com/r/dataisbeautiful/comments/1jcllvw/dashboard_of_letters_received_by_lm_at_mdc/">Source:
-        r/dataisbeautiful</a></p>
-    <img src="https://preview.redd.it/dashboard-of-letters-received-by-lm-at-mdc-brooklyn-v0-ap3wughk12pe1.jpeg?width=640&crop=smart&auto=webp&s=9a77c23952947c932d0ae727e4c3ac25b0a57ec4"><br>
+    The chart represents the log of letters received by Lulu, including the number of letters received over time, 
+    the median age of the letters, the distribution of sending countries, and a table summarizing the letter counts by country.
+    </p>
+    <br>
+    <img src="https://preview.redd.it/dashboard-of-letters-received-by-lm-at-mdc-brooklyn-v0-ap3wughk12pe1.jpeg?width=640&crop=smart&auto=webp&s=9a77c23952947c932d0ae727e4c3ac25b0a57ec4">
+    <br>
+    <!-- Source section wrapped in a div -->
+    <div class="source-section">
+    <p><a href="https://www.reddit.com/r/dataisbeautiful/comments/1jcllvw/dashboard_of_letters_received_by_lm_at_mdc/">
+        Source: r/dataisbeautiful</a></p>
+    </div>
 
     <h4>Misleading elements:</h4>
     <ol>
@@ -152,13 +165,17 @@
     <!-------------------------------------------------------------->
 
     <h3>Example 2</h3>
-    <p>
-        The chart represents population change in the United States from 2020 to 2023 at the county level, showing areas of growth and decline. The color gradient represents percentage changes, with green indicating population growth and purple indicating population decline. Additionally, the chart highlights the fastest-growing and fastest-shrinking counties with a minimum population of 50,000.</p><br>
+<p>
+    The chart represents population change in the United States from 2020 to 2023 at the county level, showing areas of growth and decline. The color gradient represents percentage changes, with green indicating population growth and purple indicating population decline. Additionally, the chart highlights the fastest-growing and fastest-shrinking counties with a minimum population of 50,000.
+</p>
+<br>
+<img src="https://preview.redd.it/population-change-from-2020-to-2023-by-us-county-v0-6j94nn22qwme1.jpg?width=640&crop=smart&auto=webp&s=be4af1fd10877cb021742a9cc4e0c5143edec6d1">
+<br>
+<div class="source-section">
+    <p><a href="https://www.reddit.com/r/dataisbeautiful/comments/1j48pin/oc_population_change_from_2020_to_2023_by_us/#lightbox">
+        Source: r/dataisbeautiful</a></p>
+</div>
 
-    <p><a href="https://www.reddit.com/r/dataisbeautiful/comments/1j48pin/oc_population_change_from_2020_to_2023_by_us/#lightbox">Source:
-        r/dataisbeautiful</a></p>
-
-    <img src="https://preview.redd.it/population-change-from-2020-to-2023-by-us-county-v0-6j94nn22qwme1.jpg?width=640&crop=smart&auto=webp&s=be4af1fd10877cb021742a9cc4e0c5143edec6d1"><br>
 
     <h4>Misleading elements:</h4>
     <ol>
